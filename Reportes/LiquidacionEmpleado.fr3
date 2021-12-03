@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.8.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44389.5454765278" ReportOptions.Description.Text="" ReportOptions.LastChange="44389.6030169444" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDetalle" DataSetName="frxDBDetalle"/>
+  </Datasets>
+  <Variables>
+    <item Name="Empleado" Value="''"/>
+    <item Name="desde" Value="'04/03/2021'"/>
+    <item Name="hasta" Value="'01/04/2021'"/>
+  </Variables>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="15.11812" Left="0" Top="158.74026" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDetalle" DataSetName="frxDBDetalle" RowCount="0">
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="3.77953" Top="0" Width="94.48825" Height="15.11812" DataField="FECHAVTA" DataSet="frxDBDetalle" DataSetName="frxDBDetalle" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDetalle.&#34;FECHAVTA&#34;]"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="102.04731" Top="0" Width="177.63791" Height="15.11812" DataField="NOMBRE" DataSet="frxDBDetalle" DataSetName="frxDBDetalle" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxDBDetalle.&#34;NOMBRE&#34;]"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="283.46475" Top="0" Width="94.48825" Height="15.11812" DataField="NROCPBTE" DataSet="frxDBDetalle" DataSetName="frxDBDetalle" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frxDBDetalle.&#34;NROCPBTE&#34;]"/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="393.07112" Top="0" Width="94.48825" Height="15.11812" DataField="NETO" DataSet="frxDBDetalle" DataSetName="frxDBDetalle" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frxDBDetalle.&#34;NETO&#34;]"/>
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="495.11843" Top="0" Width="94.48825" Height="15.11812" DataField="TOTAL" DataSet="frxDBDetalle" DataSetName="frxDBDetalle" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frxDBDetalle.&#34;TOTAL&#34;]"/>
+      <TfrxMemoView Name="Memo9" AllowVectorExport="True" Left="642.5201" Top="0" Width="94.48825" Height="15.11812" DataField="COMISION" DataSet="frxDBDetalle" DataSetName="frxDBDetalle" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frxDBDetalle.&#34;COMISION&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="79.37013" Left="0" Top="279.68522" Width="740.409927">
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="645.921677" Top="37.7953" Width="75.5906" Height="18.89765" Frame.Typ="0" HAlign="haRight" Text="[Page#]"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="11.33859" Top="3.77953" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxPageFooter>
+    <TfrxReportSummary Name="ReportSummary1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22.67718" Left="0" Top="234.33086" Width="740.409927">
+      <TfrxMemoView Name="Memo12" AllowVectorExport="True" Left="555.59091" Top="0" Width="181.41744" Height="18.89765" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;frxDBDetalle.&#34;COMISION&#34;&#62;)]"/>
+    </TfrxReportSummary>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="79.37013" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="11.33859" Top="0" Width="317.48052" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Listado de Comprobantes Liquidados"/>
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="18.89765" Top="26.45671" Width="268.34663" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Empleado]"/>
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" Left="427.08689" Top="26.45671" Width="90.70872" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="del [desde]"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="521.57514" Top="26.45671" Width="98.26778" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="al [hasta]"/>
+      <TfrxMemoView Name="Memo13" AllowVectorExport="True" Left="22.67718" Top="58.25201" Width="68.03154" Height="15.11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Fecha"/>
+      <TfrxMemoView Name="Memo14" AllowVectorExport="True" Left="105.82684" Top="58.25201" Width="151.1812" Height="15.11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Cliente"/>
+      <TfrxMemoView Name="Memo15" AllowVectorExport="True" Left="283.46475" Top="58.25201" Width="94.48825" Height="15.11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Nro.Cpbte"/>
+      <TfrxMemoView Name="Memo16" AllowVectorExport="True" Left="415.7483" Top="58.25201" Width="68.03154" Height="15.11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Neto"/>
+      <TfrxMemoView Name="Memo17" AllowVectorExport="True" Left="521.57514" Top="58.25201" Width="71.81107" Height="15.11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Total"/>
+      <TfrxMemoView Name="Memo18" AllowVectorExport="True" Left="638.74057" Top="58.25201" Width="94.48825" Height="15.11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Comision"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>

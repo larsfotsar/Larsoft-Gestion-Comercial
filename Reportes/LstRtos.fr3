@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.7.61" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41583.4364462616" ReportOptions.Description.Text="" ReportOptions.LastChange="41583.4497679282" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C656674032C0103546F7003D50108446174617365747301010C2A00000020446174615365743D226672444252746F732220446174615365744E616D653D226672444252746F732200010C3400000020446174615365743D22667278446243616265636572612220446174615365744E616D653D2266727844624361626563657261220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="150" PaperSize="256" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="49.13389" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo2" Left="11.33859" Top="0" Width="166.29932" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Remitos Asociados"/>
+      <TfrxMemoView Name="Memo3" Left="521.57514" Top="11.33859" Width="26.45671" Height="18.89765" ShowHint="False" Text="[frxDbCabecera.&#34;TIPOCPBTE&#34;]"/>
+      <TfrxMemoView Name="frxDbCabeceraNROCPBTE" Left="582.04762" Top="11.33859" Width="128.50402" Height="18.89765" ShowHint="False" DataSet="frxDbCabecera" DataSetName="frxDbCabecera" Text="[FormatMaskText('a-0000-00000000;0',&#60;frxDbCabecera.&#34;NROCPBTE&#34;&#62;)]"/>
+      <TfrxMemoView Name="frxDbCabeceraRAZONSOCIAL" Left="120.94496" Top="22.67718" Width="279.68522" Height="18.89765" ShowHint="False" DataField="RAZONSOCIAL" DataSet="frxDbCabecera" DataSetName="frxDbCabecera" Text="[frxDbCabecera.&#34;RAZONSOCIAL&#34;]"/>
+      <TfrxMemoView Name="frxDbCabeceraCLASECPBTE" Left="551.81138" Top="11.33859" Width="26.45671" Height="18.89765" ShowHint="False" DataField="CLASECPBTE" DataSet="frxDbCabecera" DataSetName="frxDbCabecera" Text="[frxDbCabecera.&#34;CLASECPBTE&#34;]"/>
+      <TfrxLineView Name="Line1" Left="3.77953" Top="41.57483" Width="706.77211" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="18.89765" Left="0" Top="128.50402" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="frDBRtos" DataSetName="frDBRtos" RowCount="0">
+      <TfrxMemoView Name="frDBRtosTIPOCPBTE" Left="3.77953" Top="0" Width="15.11812" Height="18.89765" ShowHint="False" DataField="TIPOCPBTE" DataSet="frDBRtos" DataSetName="frDBRtos" Text="[frDBRtos.&#34;TIPOCPBTE&#34;]"/>
+      <TfrxMemoView Name="frDBRtosCLASECPBTE" Left="18.89765" Top="0" Width="15.11812" Height="18.89765" ShowHint="False" DataField="CLASECPBTE" DataSet="frDBRtos" DataSetName="frDBRtos" Text="[frDBRtos.&#34;CLASECPBTE&#34;]"/>
+      <TfrxMemoView Name="frDBRtosFECHAVTA" Left="34.01577" Top="0" Width="151.1812" Height="18.89765" ShowHint="False" DataField="FECHAVTA" DataSet="frDBRtos" DataSetName="frDBRtos" Text="[frDBRtos.&#34;FECHAVTA&#34;]"/>
+      <TfrxMemoView Name="frDBRtosNROCPBTE" Left="185.19697" Top="0" Width="170.07885" Height="18.89765" ShowHint="False" DataSet="frDBRtos" DataSetName="frDBRtos" Text="[FormatMaskText('a-0000-00000000;0',&#60;frDBRtos.&#34;NROCPBTE&#34;&#62;)]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22.67718" Left="0" Top="207.87415" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Left="642.5201" Top="0" Width="75.5906" Height="18.89765" ShowHint="False" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

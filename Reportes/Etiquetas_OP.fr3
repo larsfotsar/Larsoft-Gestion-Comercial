@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15.10" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Copies="3" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218210417" ReportOptions.Description.Text="" ReportOptions.LastChange="43095.0103205208" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674033E0103546F7002760844617461736574730101062A20446174615365743D2266724453457469712220446174615365744E616D653D226672445345746971220000095661726961626C65730101062E204E616D653D224665636861456C61626F726163696F6E222056616C75653D2227544A76446174654564697427220001062E204E616D653D22466563686156656E63696D69656E746F222056616C75653D2227544A76446174654564697427220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="120" PaperHeight="60" PaperSize="256" LeftMargin="6" RightMargin="6" TopMargin="6" BottomMargin="6" ColumnWidth="198" ColumnPositions.Text="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="145.57483" Left="0" Top="22.67718" Width="408.18924" ColumnWidth="249.448818897638" ColumnGap="0.377952755905512" DataSet="frDSEtiq" DataSetName="frDSEtiq" RowCount="0">
+      <TfrxMemoView Name="Memo3" Left="9.55906" Top="115.01577" Width="241" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Courier New" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDSEtiq.&#34;DETALLE&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="7.55906" Top="4.77953" Width="181.41744" Height="15.11812" ShowHint="False" DataField="CODIGO" DataSet="frDSEtiq" DataSetName="frDSEtiq" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frDSEtiq.&#34;CODIGO&#34;]"/>
+      <TfrxBarCodeView Name="BarCode1" ShiftMode="smDontShift" Left="7.55906" Top="34.01577" Width="129" Height="34.01577" ShowHint="False" BarType="bcCode39" Expression="&#60;frDSEtiq.&#34;CODIGO&#34;&#62;" Rotation="0" Text="12345678" WideBarRatio="2" Zoom="1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0"/>
+      <TfrxMemoView Name="Memo1" Left="200.31509" Top="83.14966" Width="192.75603" Height="18.89765" ShowHint="False" Text="F.Elaboracion:[FechaElaboracion]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

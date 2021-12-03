@@ -1,0 +1,7 @@
+
+- Ejecute Registrar.bat con privilegios elevados (click derecho -> Ejecutar como administrador).
+- Si esta sobre Windows XP es requerido que tenga instalado el service pack 3. Verificar tener activada la casilla "USAR TLS 1.0" en "Opciones de Internet->Opciones Avanzadas"
+- Examine en la carpeta de ejemplos por el que corresponda, el ejemplo mas común a implementar es FACTURAS A, B y C. 
+
+Necesitas ayuda?
+Consultas: contacto@bitingenieria.com.ar

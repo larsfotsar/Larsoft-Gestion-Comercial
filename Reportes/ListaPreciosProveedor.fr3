@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218649768" ReportOptions.Description.Text="" ReportOptions.LastChange="42592.7186789005" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403B80103546F700300020844617461736574730101063E20446174615365743D226672444253746F636B50726F766565646F722220446174615365744E616D653D226672444253746F636B50726F766565646F72220000095661726961626C65730101061F204E616D653D22436F6469676F222056616C75653D2227303030303739272200010629204E616D653D224E6F6D627265222056616C75653D22274341534120424C414E434F20532E412E27220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="6" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="56.64564" Left="0" Top="18.89765" Width="771.02412">
+      <TfrxMemoView Name="Memo4" Left="107.42517" Top="14.86611" Width="372" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[nombre]"/>
+      <TfrxMemoView Name="Memo5" Left="8.11812" Top="14.86611" Width="88" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[codigo]"/>
+      <TfrxLineView Name="Line1" Left="11.89765" Top="44.62987" Width="724" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="18" Left="0" Top="136.06308" Width="771.02412" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frDBStockProveedor" DataSetName="frDBStockProveedor" RowCount="0">
+      <TfrxMemoView Name="Memo10" Left="4.11812" Top="0.59833" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" DataField="CODIGO_STK" DataSet="frDBStockProveedor" DataSetName="frDBStockProveedor" HideZeros="True" Text="[frDBStockProveedor.&#34;CODIGO_STK&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="101.44094" Top="0.59833" Width="368.69295" Height="18" ShowHint="False" StretchMode="smMaxHeight" DataField="MUESTRASTOCK" DataSet="frDBStockProveedor" DataSetName="frDBStockProveedor" HideZeros="True" WordWrap="False" Text="[frDBStockProveedor.&#34;MUESTRASTOCK&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="486.13389" Top="0.59833" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" DataField="PRECIO" DataSet="frDBStockProveedor" DataSetName="frDBStockProveedor" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" HideZeros="True" Text="[frDBStockProveedor.&#34;PRECIO&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="613.22047" Top="0.59833" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" DataField="ULTIMA_ACTUALIZACION" DataSet="frDBStockProveedor" DataSetName="frDBStockProveedor" HAlign="haRight" HideZeros="True" Text="[frDBStockProveedor.&#34;ULTIMA_ACTUALIZACION&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="34" Left="0" Top="215.43321" Width="771.02412">
+      <TfrxMemoView Name="Memo14" Left="305" Top="0.34632" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text=""/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

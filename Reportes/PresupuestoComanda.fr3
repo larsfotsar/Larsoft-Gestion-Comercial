@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.8.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.MDIChild="True" PreviewOptions.Modal="False" PreviewOptions.Zoom="1" PrintOptions.Printer="EPSON TM-T20III Receipt" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218721644" ReportOptions.Description.Text="" ReportOptions.LastChange="44382.6803707523" ScriptLanguage="PascalScript" ScriptText.Text="var&#13;&#10;  CodigoPR: string;&#13;&#10;procedure Page1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  CodigoPR  :=  'PR' +  IntToStr(&#60;frDBCabecera.&#34;ID_PR&#34;&#62;);&#13;&#10;&#13;&#10;&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frDBCabecera" DataSetName="frDBCabecera"/>
+    <item DataSet="frDBDetalle" DataSetName="frDBDetalle"/>
+    <item DataSet="frDBDImpuestos" DataSetName="frDBDImpuestos"/>
+    <item DataSet="frDBSucursal" DataSetName="frDBSucursal"/>
+    <item DataSet="frxDBDSubDet" DataSetName="frxDBDSubDet"/>
+    <item DataSet="frxDBEmpresa" DataSetName="frxDBEmpresa"/>
+  </Datasets>
+  <Variables>
+    <item Name="ImpUnitario" Value="'S'"/>
+    <item Name="ImpTotal" Value="'S'"/>
+  </Variables>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="1" Font.Color="0" Font.Height="-8" Font.Name="Arial" Font.Style="0" PaperWidth="80" PaperHeight="297" PaperSize="124" LeftMargin="1" RightMargin="1" TopMargin="2" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" EndlessHeight="True" MirrorMode="0" HGuides.Text="" VGuides.Text="" OnBeforePrint="Page1OnBeforePrint">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="5.32282" Left="0" Top="222.99227" Width="294.80334" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frDBCabecera" DataSetName="frDBCabecera" RowCount="0"/>
+    <TfrxReportTitle Name="" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="141.6141" Left="0" Top="18.89765" Width="294.80334" OnBeforePrint="OnBeforePrint">
+      <TfrxBarCodeView Name="BarCode1" AllowVectorExport="True" Left="22.67718" Top="60.47248" Width="260.06308" Height="68.03154" AutoSize="False" BarType="bcCode128B" Expression="&#60;CodigoPR&#62;" Frame.Typ="0" Rotation="0" TestLine="False" Text="12345678" WideBarRatio="2" Zoom="2.09728290322581" Font.Charset="1" Font.Color="0" Font.Height="-7" Font.Name="Arial" Font.Style="0" ColorBar="0"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData4" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="15" Left="0" Top="249.44898" Width="294.80334" OnBeforePrint="MasterData4OnBeforePrint" ColumnWidth="0" ColumnGap="0" DataSet="frDBDetalle" DataSetName="frDBDetalle" RowCount="0">
+      <TfrxMemoView Name="frDBDetalleCODIGOARTICULO" IndexTag="1" AllowVectorExport="True" Left="0" Top="0" Width="45.35436" Height="14.09721069" DataField="CODIGOARTICULO" DataSet="frDBDetalle" DataSetName="frDBDetalle" Font.Charset="1" Font.Color="0" Font.Height="-8" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frDBDetalle.&#34;CODIGOARTICULO&#34;]"/>
+      <TfrxMemoView Name="frDBDetalleDETALLE" IndexTag="1" AllowVectorExport="True" Left="49.13389" Top="0" Width="181.41744" Height="14.09721069" DataField="DETALLE" DataSet="frDBDetalle" DataSetName="frDBDetalle" Font.Charset="1" Font.Color="0" Font.Height="-8" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frDBDetalle.&#34;DETALLE&#34;]"/>
+      <TfrxMemoView Name="frDBDetalleCANTIDAD" IndexTag="1" AllowVectorExport="True" Left="234.33086" Top="0" Width="41.57483" Height="13.38040862" DataField="CANTIDAD" DataSet="frDBDetalle" DataSetName="frDBDetalle" Font.Charset="1" Font.Color="0" Font.Height="-8" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frDBDetalle.&#34;CANTIDAD&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

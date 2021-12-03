@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15.10" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Padrão" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218494444" ReportOptions.Description.Text="" ReportOptions.LastChange="42740.632744456" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403540203546F700360010844617461736574730101062C20446174615365743D226672444246696368612220446174615365744E616D653D22667244424669636861220001063820446174615365743D22667244424C6973746143756D706C652220446174615365744E616D653D22667244424C6973746143756D706C65220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="98" Left="0" Top="18.89765" Width="755.906">
+      <TfrxMemoView Name="Memo1" Left="2" Top="14.42517" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[frDBFicha.&#34;CODIGO&#34;]"/>
+      <TfrxMemoView Name="Memo2" Left="106.22047" Top="14.42517" Width="304" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[frDBFicha.&#34;NOMBRE&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="2" Top="42.42517" Width="443.71676" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[frDBFicha.&#34;CAMPO_1&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="2" Top="66.42517" Width="466.39394" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[frDBFicha.&#34;CAMPO_2&#34;]"/>
+      <TfrxLineView Name="Line1" Left="5.33859" Top="90.42517" Width="732" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="846" Left="0" Top="177.63791" Width="755.906" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frDBFicha" DataSetName="frDBFicha" RowCount="0">
+      <TfrxMemoView Name="Memo5" Align="baWidth" Left="0" Top="13.03927" Width="755.906" Height="788.86611" ShowHint="False" AutoWidth="True" HideZeros="True" Text="[frDBFicha.&#34;NOTAS&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

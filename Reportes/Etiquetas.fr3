@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218210417" ReportOptions.Description.Text="" ReportOptions.LastChange="43756.7946216435" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403F00003546F700368010844617461736574730101062C20446174615365743D224574697175657461732220446174615365744E616D653D22457469717565746173220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="6" RightMargin="6" TopMargin="6" BottomMargin="6" ColumnWidth="198" ColumnPositions.Text="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="88.88188" Left="0" Top="22.67718" Width="748.34694" Columns="3" ColumnWidth="249.448818897638" ColumnGap="0.377952755905512" DataSet="Etiquetas" DataSetName="Etiquetas" RowCount="0">
+      <TfrxMemoView Name="Memo3" Left="2" Top="65.88188" Width="241" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Courier New" Font.Style="0" HideZeros="True" ParentFont="False" Text="[Copy(&#60;Etiquetas.&#34;DETALLE&#34;&#62;,1,34)]"/>
+      <TfrxLineView Name="Line2" Left="0" Top="85.10235" Width="248.22016" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="0.5"/>
+      <TfrxLineView Name="Line1" Left="1" Top="0.88188" Width="244.44063" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="0.5"/>
+      <TfrxLineView Name="Line3" Left="1" Top="0.881879999999999" Width="0" Height="84.22047" ShowHint="False" Frame.Typ="1" Frame.Width="0.5"/>
+      <TfrxLineView Name="Line5" Left="246.33055" Top="0.88188" Width="0" Height="84.22047" ShowHint="False" Frame.Typ="1" Frame.Width="0.5"/>
+      <TfrxMemoView Name="Memo4" Left="3.77953" Top="1" Width="181.41744" Height="15.11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Etiquetas.&#34;CODIGO&#34;]"/>
+      <TfrxBarCodeView Name="BarCode1" ShiftMode="smDontShift" Left="11.33859" Top="18.89765" Width="103" Height="52.91342" ShowHint="False" BarType="bcCodeEAN13" Expression="&#60;Etiquetas.&#34;CODIGOBARRA&#34;&#62;" Rotation="0" Text="12345678" WideBarRatio="2" Zoom="1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

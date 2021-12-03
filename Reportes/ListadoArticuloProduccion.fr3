@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.8.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44299.8912299074" ReportOptions.Description.Text="" ReportOptions.LastChange="44299.9021753241" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frDBMov" DataSetName="frDBMov"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="17.00787402" Left="0" Top="207.87415" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frDBMov" DataSetName="frDBMov" RowCount="0">
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="3.77953" Top="0" Width="79.37013" Height="17.007874015748" DataField="CODIGO_STK" DataSet="frDBMov" DataSetName="frDBMov" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frDBMov.&#34;CODIGO_STK&#34;]"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="86.92919" Top="0" Width="253.22851" Height="17.007874015748" DataField="DETALLE" DataSet="frDBMov" DataSetName="frDBMov" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frDBMov.&#34;DETALLE&#34;]"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="347.71676" Top="0" Width="94.48825" Height="17.007874015748" DataField="COSTO_STK" DataSet="frDBMov" DataSetName="frDBMov" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frDBMov.&#34;COSTO_STK&#34;]"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="445.98454" Top="0" Width="94.48825" Height="17.007874015748" DataField="CANTIDAD_FISICA" DataSet="frDBMov" DataSetName="frDBMov" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frDBMov.&#34;CANTIDAD_FISICA&#34;]"/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="544.25232" Top="0" Width="94.48825" Height="17.00787402" DataField="CANTIDAD_REAL" DataSet="frDBMov" DataSetName="frDBMov" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frDBMov.&#34;CANTIDAD_REAL&#34;]"/>
+      <TfrxMemoView Name="Memo14" AllowVectorExport="True" Left="642.5201" Top="0" Width="94.48825" Height="17.00787402" DataField="COSTO" DataSet="frDBMov" DataSetName="frDBMov" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[frDBMov.&#34;COSTO&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22.67718" Left="0" Top="328.81911" Width="740.409927">
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="664.819327" Top="0" Width="75.5906" Height="18.89765" Frame.Typ="0" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="64.25201" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="7.55906" Top="11.33859" Width="298.58287" Height="37.7953" Font.Charset="1" Font.Color="0" Font.Height="-24" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Articulos de Produccion"/>
+    </TfrxPageHeader>
+    <TfrxGroupHeader Name="GroupHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="41.57483" Left="0" Top="143.62214" Width="740.409927" Condition="frDBMov.&#34;ENCABEZADO&#34;">
+      <TfrxMemoView Name="frDBMovENCABEZADO" IndexTag="1" Align="baClient" AllowVectorExport="True" Left="0" Top="0" Width="740.409927" Height="41.57483" DataField="ENCABEZADO" DataSet="frDBMov" DataSetName="frDBMov" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="13421772" ParentFont="False" Text="[frDBMov.&#34;ENCABEZADO&#34;]"/>
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="3.77953" Top="18.89765" Width="94.48825" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Codigo"/>
+      <TfrxMemoView Name="Memo9" AllowVectorExport="True" Left="170.07885" Top="18.89765" Width="94.48825" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Descripcion"/>
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" Left="347.71676" Top="18.89765" Width="94.48825" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Costo"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="445.98454" Top="18.89765" Width="94.48825" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Cant.Real"/>
+      <TfrxMemoView Name="Memo12" AllowVectorExport="True" Left="548.03185" Top="18.89765" Width="94.48825" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Cant.Fisica"/>
+      <TfrxMemoView Name="Memo13" AllowVectorExport="True" Left="646.29963" Top="18.89765" Width="94.48825" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Costo"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="18.89765" Left="0" Top="249.44898" Width="740.409927">
+      <TfrxMemoView Name="Memo15" AllowVectorExport="True" Left="642.5201" Top="0" Width="94.48825" Height="18.89765" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;frDBMov.&#34;COSTO&#34;&#62;)]"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="642.5201" Top="-1" Width="94.48825" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxGroupFooter>
+  </TfrxReportPage>
+</TfrxReport>

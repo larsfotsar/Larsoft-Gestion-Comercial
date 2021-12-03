@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.7.61" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.3523826273" ReportOptions.Description.Text="" ReportOptions.LastChange="40515.4820766204" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403290203546F7003590108446174617365747301010C2A00000020446174615365743D2266727844424465742220446174615365744E616D653D2266727844424465742200010C2800000020446174615365743D22667244424361622220446174615365744E616D653D2266724442436162220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="100" PaperHeight="150" PaperSize="256" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="139.84261" Left="0" Top="18.89765" Width="340.1577" ColumnWidth="0" ColumnGap="0" DataSet="frDBCab" DataSetName="frDBCab" RowCount="0">
+      <TfrxShapeView Name="Shape1" Left="3.77953" Top="3.77953" Width="332.59864" Height="132.28355" ShowHint="False" Shape="skRoundRectangle"/>
+      <TfrxMemoView Name="frDBCabCODIGO" Left="15.11812" Top="30.23624" Width="83.14966" Height="18.89765" ShowHint="False" DataField="CODIGO" DataSet="frDBCab" DataSetName="frDBCab" Text="[frDBCab.&#34;CODIGO&#34;]"/>
+      <TfrxMemoView Name="frDBCabMUESTRAPRODUCTO" Left="98.26778" Top="30.23624" Width="359.05535" Height="18.89765" ShowHint="False" DataField="MUESTRAPRODUCTO" DataSet="frDBCab" DataSetName="frDBCab" Text="[frDBCab.&#34;MUESTRAPRODUCTO&#34;]"/>
+      <TfrxBarCodeView Name="BarCode1" Left="94.48825" Top="68.03154" Width="129" Height="30.23624" ShowHint="False" BarType="bcCode39" Expression="&#60;frDBCab.&#34;CODIGOSERIE&#34;&#62;" Rotation="0" Text="12345678" WideBarRatio="2" Zoom="1"/>
+      <TfrxMemoView Name="Memo1" Left="15.11812" Top="7.55906" Width="86.92919" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Descripcion:"/>
+      <TfrxMemoView Name="Memo2" Left="7.55906" Top="68.03154" Width="83.14966" Height="18.89765" ShowHint="False" Text="Nro de Serie:"/>
+      <TfrxMemoView Name="Memo4" Left="45.35436" Top="113.3859" Width="94.48825" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Parte"/>
+      <TfrxMemoView Name="Memo5" Left="222.99227" Top="109.60637" Width="94.48825" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Nro.de Serie"/>
+    </TfrxMasterData>
+    <TfrxDetailData Name="DetailData1" Height="30.23624" Left="0" Top="181.41744" Width="340.1577" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDet" DataSetName="frxDBDet" RowCount="0">
+      <TfrxMemoView Name="Memo3" Left="3.77953" Top="2" Width="170.07885" Height="15.11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxDBDet.&#34;DETALLE&#34;]"/>
+      <TfrxBarCodeView Name="BarCode2" Left="188.9765" Top="2.77953" Width="129" Height="15.11812" ShowHint="False" BarType="bcCode39" Expression="&#60;frxDBDet.&#34;NRO_SERIE&#34;&#62;" Rotation="0" ShowText="False" Text="12345678" WideBarRatio="2" Zoom="1"/>
+      <TfrxMemoView Name="Memo6" Left="188.9765" Top="18.89765" Width="260.78757" Height="11.33859" ShowHint="False" DataField="NRO_SERIE" DataSet="frxDBDet" DataSetName="frxDBDet" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxDBDet.&#34;NRO_SERIE&#34;]"/>
+    </TfrxDetailData>
+  </TfrxReportPage>
+</TfrxReport>

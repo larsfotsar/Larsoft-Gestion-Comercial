@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218517593" ReportOptions.Description.Text="" ReportOptions.LastChange="43510.624665162" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403800103546F700358010844617461736574730101063020446174615365743D22667244424C69737461646F2220446174615365744E616D653D22667244424C69737461646F220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" Columns="2" ColumnWidth="103" ColumnPositions.Text="0&#13;&#10;103" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="55.10235" Left="0" Top="28" Width="778.205227">
+      <TfrxMemoView Name="Memo6" Left="-22.67718" Top="4.44094" Width="430.48825" Height="30" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="3" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Listado de Ctas de Gastos e Ingresos"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="16" Left="0" Top="188" Width="389.29159" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frDBListado" DataSetName="frDBListado" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="2" Top="0" Width="60" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="CODIGO" DataSet="frDBListado" DataSetName="frDBListado" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDBListado.&#34;CODIGO&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="67.32282" Top="0" Width="311.37013" Height="16" ShowHint="False" DataField="DETALLE" DataSet="frDBListado" DataSetName="frDBListado" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDBListado.&#34;DETALLE&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader1" Height="38" Left="0" Top="120" Width="389.29159" Condition="&#60;frDBListado.&#34;CODIGO_RUBRO&#34;&#62;" ReprintOnNewPage="True">
+      <TfrxMemoView Name="Memo1" Left="54.66141" Top="0" Width="331.5906" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="3" HideZeros="True" ParentFont="False" Text="[frDBListado.&#34;MUESTRARUBRO&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="2" Top="19" Width="68" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="3" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Codigo"/>
+      <TfrxMemoView Name="Memo5" Left="102" Top="19" Width="144" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="3" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Cuenta"/>
+      <TfrxMemoView Name="Memo9" Left="0" Top="0" Width="54.42517" Height="16" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="3" HideZeros="True" ParentFont="False" Text="[frDBListado.&#34;CODIGO_RUBRO&#34;]"/>
+    </TfrxGroupHeader>
+    <TfrxPageFooter Name="PageFooter1" Height="64" Left="0" Top="232" Width="778.205227">
+      <TfrxMemoView Name="Memo8" Left="318" Top="20" Width="96" Height="24" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="[Page#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

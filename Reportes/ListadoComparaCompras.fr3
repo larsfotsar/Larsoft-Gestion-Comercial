@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43764.937720625" ReportOptions.Description.Text="" ReportOptions.LastChange="43764.9452419329" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403B80203546F700308010844617461736574730101063020446174615365743D2266724442436F6D707261732220446174615365744E616D653D2266724442436F6D70726173220000095661726961626C657301010622204E616D653D226465736465222056616C75653D222730312F31302F32303137272200010622204E616D653D226861737461222056616C75653D222733312F31302F3230313927220001061D204E616D653D224172746963756C6F73222056616C75653D22272027220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="61.57483" Left="0" Top="23.55906" Width="718.1107"/>
+    <TfrxMasterData Name="MasterData1" Height="20" Left="0" Top="189.16543" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="frDBCompras" DataSetName="frDBCompras" RowCount="0"/>
+    <TfrxPageFooter Name="PageFooter1" Height="91.81107" Left="0" Top="350.99227" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Left="627.40198" Top="0" Width="75.5906" Height="18.89765" ShowHint="False" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxGroupHeader Name="GroupHeader1" Height="22.67718" Left="0" Top="128.50402" Width="718.1107" Condition="frDBCompras.&#34;CODIGOARTICULO&#34;">
+      <TfrxMemoView Name="Memo6" Left="11.33859" Top="3.77953" Width="94.48825" Height="18.89765" ShowHint="False" Text="[frDBCompras.&#34;CODIGOARTICULO&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="109.60637" Top="3.77953" Width="234.33086" Height="18.89765" ShowHint="False" Text="[frDBCompras.&#34;DETALLE&#34;]"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" Height="18.89765" Left="0" Top="260.78757" Width="718.1107"/>
+    <TfrxMemoView Name="Memo8" Left="11.33859" Top="291.02381" Width="714.33117" Height="18.89765" ShowHint="False" Color="15790320" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text=""/>
+    <TfrxMemoView Name="Memo2" Left="3.77953" Top="188.9765" Width="94.48825" Height="18.89765" ShowHint="False" AutoWidth="True" Text="[frDBCompras.&#34;CODIGOPROVEEDOR&#34;]"/>
+    <TfrxMemoView Name="Memo3" Left="109.60637" Top="188.9765" Width="279.68522" Height="18.89765" ShowHint="False" Text="[frDBCompras.&#34;NOMBRE&#34;]"/>
+    <TfrxMemoView Name="Memo4" Left="400.63018" Top="188.9765" Width="94.48825" Height="18.89765" ShowHint="False" Text="[frDBCompras.&#34;UNITARIO_TOTAL&#34;]"/>
+    <TfrxMemoView Name="Memo5" Left="616.06339" Top="188.9765" Width="94.48825" Height="18.89765" ShowHint="False" Text="[frDBCompras.&#34;FECHACOMPRA&#34;]"/>
+  </TfrxReportPage>
+</TfrxReport>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15.10" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43252.4739564699" ReportOptions.Description.Text="" ReportOptions.LastChange="43252.5670948611" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403040203546F7003B8000844617461736574730101063E20446174615365743D2266727855736572446174614C69737461646F2220446174615365744E616D653D2266727855736572446174614C69737461646F220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="5" RightMargin="5" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="15.89765" Left="0" Top="124.72449" Width="778.205227" ColumnWidth="0" ColumnGap="0" DataSet="frxUserDataListado" DataSetName="frxUserDataListado" RowCount="0">
+      <TfrxMemoView Name="Memo1" Left="3.77953" Top="0.77953" Width="771.02412" Height="15.11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[element]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="64.25201" Left="0" Top="396.85065" Width="778.205227">
+      <TfrxMemoView Name="Memo3" Left="672.75634" Top="18.89765" Width="60.47248" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[Page#]"/>
+      <TfrxLineView Name="Line1" Left="3.77953" Top="7.55906" Width="771.02412" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" Height="60.47248" Left="0" Top="26.45671" Width="778.205227">
+      <TfrxMemoView Name="Memo2" Left="7.55906" Top="11.33859" Width="370.39394" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Listado Lote de Facturas a Fiscalizar"/>
+      <TfrxLineView Name="Line2" Left="3.77953" Top="45.35436" Width="771.02412" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>

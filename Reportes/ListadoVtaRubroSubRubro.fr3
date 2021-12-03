@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.7.61" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218631134" ReportOptions.Description.Text="" ReportOptions.LastChange="41123.7055277199" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403000203546F7003780108446174617365747301010C2800000020446174615365743D22667244535674612220446174615365744E616D653D2266724453567461220000095661726961626C657301010C22000000204E616D653D224465736465222056616C75653D222730312F30372F32303132272200010C22000000204E616D653D224861737461222056616C75653D222733312F30372F32303132272200010C19000000204E616D653D22546F74616C222056616C75653D222730272200010C28000000204E616D653D22527562726F222056616C75653D2227546F646F73204C6F7320527562726F7327220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="78.44094" Left="0" Top="18.89765" Width="755.906">
+      <TfrxMemoView Name="Memo1" Left="5" Top="4.22047" Width="440" Height="34" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-24" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="Listado de vtas por Rubro-SubRubro"/>
+      <TfrxMemoView Name="Memo2" Left="613" Top="4" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[Date]"/>
+      <TfrxMemoView Name="Memo3" Left="5.22047" Top="44.66141" Width="80.88188" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="Period del "/>
+      <TfrxMemoView Name="Memo4" Left="90.54329" Top="44.66141" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[Desde]"/>
+      <TfrxMemoView Name="Memo5" Left="190.54329" Top="44.66141" Width="28" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="al"/>
+      <TfrxMemoView Name="Memo6" Left="222.54329" Top="44.66141" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" HideZeros="True" Text="[Hasta]"/>
+      <TfrxLineView Name="Line2" Left="1" Top="72.66141" Width="724" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="0.5"/>
+    </TfrxPageHeader>
+    <TfrxGroupHeader Name="GroupHeader1" Height="42" Left="0" Top="158.74026" Width="755.906" Condition="&#60;frDSVta.&#34;RUBRO&#34;&#62;">
+      <TfrxMemoView Name="Memo7" Left="113" Top="0" Width="236" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[frDSVta.&#34;MUESTRARUBRO&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="1" Top="0" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[frDSVta.&#34;RUBRO&#34;]"/>
+      <TfrxMemoView Name="Memo16" Left="89" Top="24" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Detalle"/>
+      <TfrxMemoView Name="Memo17" Left="481" Top="24" Width="72" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Cantidad"/>
+      <TfrxMemoView Name="Memo18" Left="589" Top="24" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="$ Vta."/>
+    </TfrxGroupHeader>
+    <TfrxMasterData Name="MasterData1" Height="16" Left="0" Top="222.99227" Width="755.906" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frDSVta" DataSetName="frDSVta" RowCount="0">
+      <TfrxMemoView Name="Memo8" Left="137" Top="0" Width="296" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="MUESTRASUBRUBRO" DataSet="frDSVta" DataSetName="frDSVta" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDSVta.&#34;MUESTRASUBRUBRO&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="469" Top="0" Width="84" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="CANTIDAD" DataSet="frDSVta" DataSetName="frDSVta" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[frDSVta.&#34;CANTIDAD&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="589" Top="0" Width="96" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="TOTAL" DataSet="frDSVta" DataSetName="frDSVta" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[frDSVta.&#34;TOTAL&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="33" Top="0" Width="96" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="SUBRUBRO" DataSet="frDSVta" DataSetName="frDSVta" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDSVta.&#34;SUBRUBRO&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupFooter Name="GroupFooter1" Height="30" Left="0" Top="260.78757" Width="755.906">
+      <TfrxLineView Name="Line1" Left="1" Top="24" Width="716" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="0.5"/>
+      <TfrxMemoView Name="Memo14" Left="589" Top="0" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[SUM(&#60;frDSVta.&#34;TOTAL&#34;&#62;)]"/>
+      <TfrxLineView Name="Line3" Left="580.77953" Top="0" Width="108" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="0.5"/>
+    </TfrxGroupFooter>
+    <TfrxPageFooter Name="PageFooter1" Height="68" Left="0" Top="393.07112" Width="755.906">
+      <TfrxMemoView Name="Memo13" Left="309" Top="28" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" HAlign="haCenter" HideZeros="True" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxReportSummary Name="ReportSummary1" Height="18" Left="0" Top="351.49629" Width="755.906">
+      <TfrxMemoView Name="Memo15" Left="589" Top="0" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[SUM(&#60;frDSVta.&#34;TOTAL&#34;&#62;)]"/>
+    </TfrxReportSummary>
+  </TfrxReportPage>
+</TfrxReport>

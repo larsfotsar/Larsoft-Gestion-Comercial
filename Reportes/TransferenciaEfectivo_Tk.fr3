@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43860.6029997106" ReportOptions.Description.Text="" ReportOptions.LastChange="43860.6081232292" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403800203546F700388000844617461736574730101063C20446174615365743D22667244425472616E73666572656E6369612220446174615365744E616D653D22667244425472616E73666572656E636961220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="80" PaperHeight="100" PaperSize="256" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="200.31509" Left="0" Top="18.89765" Width="264.5671">
+      <TfrxMemoView Name="Memo2" Left="3.77953" Top="3.77953" Width="94.48825" Height="34.01577" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Transferencia &#13;&#10;de Caja Efectivo"/>
+      <TfrxMemoView Name="Memo3" Left="162.51979" Top="7.55906" Width="94.48825" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="[frDBTransferencia.&#34;NUMERO&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="3.77953" Top="45.35436" Width="257.00804" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="2" ParentFont="False" Text="Desde [frDBTransferencia.&#34;MUESTRACAJAORIGEN&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="41.57483" Top="68.03154" Width="219.21274" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="2" ParentFont="False" Text="a [frDBTransferencia.&#34;MUESTRACAJADESTINO&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="162.51979" Top="158.74026" Width="94.48825" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frDBTransferencia.&#34;IMPORTE&#34;]"/>
+      <TfrxShapeView Name="Shape1" Left="0" Top="147.40167" Width="264.5671" Height="41.57483" ShowHint="False"/>
+      <TfrxMemoView Name="Memo7" Left="15.11812" Top="158.74026" Width="94.48825" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Importe"/>
+    </TfrxReportTitle>
+    <TfrxPageFooter Name="PageFooter1" Height="52.91342" Left="0" Top="257.00804" Width="264.5671">
+      <TfrxMemoView Name="Memo1" Left="665.19728" Top="0" Width="75.5906" Height="18.89765" ShowHint="False" HAlign="haRight" Text="[Page#]"/>
+      <TfrxLineView Name="Line1" Left="7.55906" Top="7.55906" Width="249.44898" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

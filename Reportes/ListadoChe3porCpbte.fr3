@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.7.61" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41382.4204242708" ReportOptions.Description.Text="" ReportOptions.LastChange="41382.4456392361" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403900203546F7003B00008446174617365747301010C2400000020446174615365743D2266724368652220446174615365744E616D653D226672436865220000095661726961626C657301010C22000000204E616D653D224465736465222056616C75653D222730312F30372F32303036272200010C22000000204E616D653D224861737461222056616C75653D222733312F30372F3230303627220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="15.11812" Left="0" Top="249.44898" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frChe" DataSetName="frChe" RowCount="0">
+      <TfrxMemoView Name="Memo6" Left="3.77953" Top="0" Width="94.48825" Height="15.11812" ShowHint="False" DataField="NUMERO" DataSet="frChe" DataSetName="frChe" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frChe.&#34;NUMERO&#34;]"/>
+      <TfrxMemoView Name="frCheFECHA_COBRO" Left="102.04731" Top="0" Width="94.48825" Height="15.11812" ShowHint="False" DataField="FECHA_ENTRADA" DataSet="frChe" DataSetName="frChe" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frChe.&#34;FECHA_ENTRADA&#34;]"/>
+      <TfrxMemoView Name="frCheFECHA_EMISION" Left="200.31509" Top="0" Width="94.48825" Height="15.11812" ShowHint="False" DataField="FECHA_COBRO" DataSet="frChe" DataSetName="frChe" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frChe.&#34;FECHA_COBRO&#34;]"/>
+      <TfrxMemoView Name="frCheFECHA_SALIDA" Left="298.58287" Top="0" Width="94.48825" Height="15.11812" ShowHint="False" DataField="FECHA_SALIDA" DataSet="frChe" DataSetName="frChe" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frChe.&#34;FECHA_SALIDA&#34;]"/>
+      <TfrxMemoView Name="frCheFIRMANTE" Left="393.07112" Top="0" Width="238.11039" Height="15.11812" ShowHint="False" DataField="FIRMANTE" DataSet="frChe" DataSetName="frChe" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frChe.&#34;FIRMANTE&#34;]"/>
+      <TfrxMemoView Name="frCheIMPORTE" Left="646.29963" Top="0" Width="94.48825" Height="15.11812" ShowHint="False" DataField="IMPORTE" DataSet="frChe" DataSetName="frChe" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frChe.&#34;IMPORTE&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="56.69295" Left="0" Top="445.98454" Width="740.409927">
+      <TfrxMemoView Name="Memo1" Left="343.93723" Top="11.33859" Width="75.5906" Height="18.89765" ShowHint="False" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxGroupHeader Name="GroupHeader1" Height="26.45671" Left="0" Top="158.74026" Width="740.409927" Condition="frChe.&#34;SUCURSAL&#34;">
+      <TfrxMemoView Name="Memo4" Left="3.77953" Top="0" Width="733.22882" Height="18.89765" ShowHint="False" Color="-16777201" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frChe.&#34;NOMBRESUCURSAL&#34;]"/>
+    </TfrxGroupHeader>
+    <TfrxGroupHeader Name="GroupHeader2" Height="18.89765" Left="0" Top="207.87415" Width="740.409927" Condition="frChe.&#34;ID_TIPOCOMPROB&#34;">
+      <TfrxMemoView Name="Memo5" Left="3.55906" Top="0" Width="192.75603" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="7" ParentFont="False" Text="[frChe.&#34;COMPROBANTE&#34;]"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" Height="18.89765" Left="0" Top="287.24428" Width="740.409927">
+      <TfrxMemoView Name="Memo7" Left="608.50433" Top="0" Width="132.28355" Height="18.89765" ShowHint="False" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;frChe.&#34;IMPORTE&#34;&#62;)]"/>
+      <TfrxLineView Name="Line1" Left="589.60668" Top="0" Width="151.1812" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxGroupFooter>
+    <TfrxGroupFooter Name="GroupFooter2" Height="0" Left="0" Top="328.81911" Width="740.409927"/>
+    <TfrxPageHeader Name="PageHeader1" Height="79.37013" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxMemoView Name="Memo2" Left="3.77953" Top="3.77953" Width="313.70099" Height="37.7953" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Listado de Che. de 3 por Cpbte de Ingreso"/>
+      <TfrxMemoView Name="Memo3" Left="551.81138" Top="3.77953" Width="185.19697" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="Emitido:[Date][Time]"/>
+      <TfrxMemoView Name="Memo9" Left="11.33859" Top="52.91342" Width="86.92919" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Nro.de Che"/>
+      <TfrxMemoView Name="Memo10" Left="102.04731" Top="52.91342" Width="86.92919" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="F.Ingreso"/>
+      <TfrxMemoView Name="Memo11" Left="196.53556" Top="52.91342" Width="86.92919" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="F.Cobro"/>
+      <TfrxMemoView Name="Memo12" Left="291.02381" Top="52.91342" Width="86.92919" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="F.Salida"/>
+      <TfrxMemoView Name="Memo13" Left="438.42548" Top="52.91342" Width="86.92919" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Firmante"/>
+      <TfrxMemoView Name="Memo14" Left="650.07916" Top="52.91342" Width="86.92919" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Importe"/>
+      <TfrxLineView Name="Line2" Left="0" Top="71.81107" Width="740.78788" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxPageHeader>
+    <TfrxReportSummary Name="ReportSummary1" Height="34.01577" Left="0" Top="389.29159" Width="740.409927">
+      <TfrxMemoView Name="Memo8" Left="578.26809" Top="11.33859" Width="162.51979" Height="18.89765" ShowHint="False" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;frChe.&#34;IMPORTE&#34;&#62;)]"/>
+    </TfrxReportSummary>
+  </TfrxReportPage>
+</TfrxReport>

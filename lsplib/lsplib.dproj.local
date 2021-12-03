@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018/07/29 19:27:53.954,=rtl.dcp</Transaction>
+    <Transaction>2018/07/29 19:27:55.775,=C:\Program Files (x86)\Embarcadero\RAD Studio\12.0\Librerias\lsplib\lsplib_TLB.pas</Transaction>
+    <Transaction>2018/07/29 19:27:55.779,=designide.dcp</Transaction>
+    <Transaction>2018/07/29 19:27:55.788,=vcl.dcp</Transaction>
+    <Transaction>2018/07/29 19:27:55.791,=vclactnband.dcp</Transaction>
+    <Transaction>2018/07/29 19:27:55.795,=vclx.dcp</Transaction>
+    <Transaction>2018/07/29 19:27:55.800,=xmlrtl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

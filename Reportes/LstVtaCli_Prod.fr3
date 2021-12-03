@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15.10" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42894.0233997454" ReportOptions.Description.Text="" ReportOptions.LastChange="42894.0343196528" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403680203546F700390000844617461736574730101062C20446174615365743D226672784442567461732220446174615365744E616D653D22667278444256746173220000095661726961626C657301010622204E616D653D224465736465222056616C75653D222730312F30322F32303137272200010622204E616D653D224861737461222056616C75653D222732382F30322F32303137272200010628204E616D653D22436C69656E7465222056616C75653D22273235204445204D41594F2053524C27220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="83.14966" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxMemoView Name="Memo1" Left="11.33859" Top="11.33859" Width="200.31509" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Vtas Cliente/Producto"/>
+      <TfrxMemoView Name="Memo2" Left="41.57483" Top="45.35436" Width="291.02381" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Cliente.: [Cliente]"/>
+      <TfrxLineView Name="Line1" Left="3.77953" Top="79.37013" Width="733.22882" Height="0" ShowHint="False" Diagonal="True"/>
+      <TfrxMemoView Name="Memo3" Left="389.29159" Top="45.35436" Width="260.78757" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Perido del : [Desde] al [Hasta]"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="18.89765" Left="0" Top="162.51979" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frxDBVtas" DataSetName="frxDBVtas" RowCount="0">
+      <TfrxMemoView Name="frxDBVtasCODIGOARTICULO" Left="3.77953" Top="0" Width="64.25201" Height="18.89765" ShowHint="False" DataField="CODIGOARTICULO" DataSet="frxDBVtas" DataSetName="frxDBVtas" Text="[frxDBVtas.&#34;CODIGOARTICULO&#34;]"/>
+      <TfrxMemoView Name="frxDBVtasDETALLE" Left="90.70872" Top="0" Width="359.05535" Height="18.89765" ShowHint="False" DataField="DETALLE" DataSet="frxDBVtas" DataSetName="frxDBVtas" Text="[frxDBVtas.&#34;DETALLE&#34;]"/>
+      <TfrxMemoView Name="frxDBVtasCANT" Left="480.00031" Top="0" Width="79.37013" Height="18.89765" ShowHint="False" DataField="CANT" DataSet="frxDBVtas" DataSetName="frxDBVtas" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxDBVtas.&#34;CANT&#34;]"/>
+      <TfrxMemoView Name="frxDBVtasSUM" Left="570.70903" Top="0" Width="79.37013" Height="18.89765" ShowHint="False" DataField="SUM" DataSet="frxDBVtas" DataSetName="frxDBVtas" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxDBVtas.&#34;SUM&#34;]"/>
+      <TfrxMemoView Name="frxDBVtasporcentaje" Left="672.75634" Top="0" Width="60.47248" Height="18.89765" ShowHint="False" DataField="porcentaje" DataSet="frxDBVtas" DataSetName="frxDBVtas" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frxDBVtas.&#34;porcentaje&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

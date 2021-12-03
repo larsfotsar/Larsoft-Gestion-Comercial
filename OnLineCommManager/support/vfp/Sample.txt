@@ -1,0 +1,15 @@
+Make a New Folder C:\OnlineCommManager and
+Copy OnlineDll.Dll to C:\OnlineCommManager
+if Online Comm Manager is not installed
+in that folder.
+
+Sample List
+Sample1    Connect, Disconnect, Soft Reset
+Sample2    Baud Rate Settings
+Sample3    File List, SetDateTime
+Sample4    File Download
+Sample5    File Upload
+Sample6    File Status Check
+Sample7    File Delete
+Sample8    Run Program
+Sample9    Polling

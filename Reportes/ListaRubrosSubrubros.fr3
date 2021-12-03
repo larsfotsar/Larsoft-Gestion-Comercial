@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.3" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218652083" ReportOptions.Description.Text="" ReportOptions.LastChange="39642.9922799074" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403A80103546F7003C00008446174617365747301010C3000000020446174615365743D22667244424C69737461646F2220446174615365744E616D653D22667244424C69737461646F220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="6" RightMargin="6" TopMargin="0" BottomMargin="0" Columns="2" ColumnWidth="102" ColumnPositions.Text="0&#13;&#10;102" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="51.32282" Left="0" Top="18.89765" Width="770.646167">
+      <TfrxMemoView Name="Memo6" Left="8.11812" Top="6.2047" Width="440" Height="30" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="3" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Listado de Rubros//Sub Rubros de stock"/>
+      <TfrxLineView Name="Line1" Left="3.77953" Top="41.57483" Width="763.46506" Height="0" Frame.Typ="4"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="16" Left="0" Top="196.53556" Width="385.51206" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frDBListado" DataSetName="frDBListado" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="8.33859" Top="0" Width="60" Height="15" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDBListado.&#34;CODIGO&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="69.88188" Top="0" Width="307.5906" Height="16" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDBListado.&#34;DETALLE&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader1" Height="42.51175" Left="0" Top="132.28355" Width="385.51206" Condition="&#60;frDBListado.&#34;CODIGO_RUBRO&#34;&#62;" ReprintOnNewPage="True">
+      <TfrxMemoView Name="Memo7" Left="3.77953" Top="0" Width="49.13389" Height="18.89765" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frDBListado.&#34;CODIGO_RUBRO&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="56.69295" Top="0" Width="332.59864" Height="18.89765" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[frDBListado.&#34;MUESTRARUBRO&#34;]"/>
+      <TfrxMemoView Name="Memo1" Left="11.33859" Top="18.89765" Width="56.69295" Height="18.89765" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Codigo"/>
+      <TfrxMemoView Name="Memo4" Left="102.04731" Top="18.89765" Width="113.3859" Height="18.89765" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Detalle"/>
+      <TfrxLineView Name="Line2" Left="3.77953" Top="0" Width="381.73253" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line3" Left="3.77953" Top="39.01577" Width="381.73253" Height="0" Frame.Typ="4"/>
+    </TfrxGroupHeader>
+    <TfrxPageFooter Name="PageFooter1" Height="64" Left="0" Top="272.12616" Width="770.646167">
+      <TfrxMemoView Name="Memo8" Left="313" Top="13.88961" Width="96" Height="24" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" HAlign="haCenter" HideZeros="True" ParentFont="False" Text=""/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

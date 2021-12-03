@@ -1,0 +1,4 @@
+Make a New Folder C:\OnlineCommManager and
+Copy OnlineDll.Dll to C:\OnlineCommManager
+if Online Comm Manager is not installed
+in that folder.

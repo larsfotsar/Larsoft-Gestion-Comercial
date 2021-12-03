@@ -1,0 +1,23 @@
+There are two ways to implement WaitForCall.
+
+1st way:
+   repeatedly call Online_ModemWaitForCall
+See Modem1.frm
+
+2nd way:
+   Step1. Call Online_ATCmd to send "ATS=2" to the Modem.
+          Here 2 means that the modem will automatically
+          pick up the phone after 2 rings detected.
+
+   Step2. Call Online_ModemEcho repeatedly until "CONTECT"
+          or
+          Call Online_ATCmd to send "ATS=0" to the Modem.
+          Then the modem will not detect the "RING".
+See Modem2.frm
+
+The 1st is simply but not very efficent.
+
+Remember that to some kind of modem, you have to send specific
+initialization command to the modem. And the time delay for
+the modem to response is diferent for different commands and
+different modem. In these samples, it is supposed one second.

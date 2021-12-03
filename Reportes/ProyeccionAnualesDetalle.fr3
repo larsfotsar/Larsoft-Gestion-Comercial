@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.7.61" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="\\Pcblack\EPSON TX115 Series" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42245.4837021875" ReportOptions.Description.Text="" ReportOptions.LastChange="42256.5346194792" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403080203546F7003E80008446174617365747301010C3200000020446174615365743D2266724442446574616C6C65732220446174615365744E616D653D2266724442446574616C6C65732200010C2E00000020446174615365743D22667246616374757261732220446174615365744E616D653D2266724661637475726173220000095661726961626C657301010C17000000204E616D653D224D6573222056616C75653D222730272200010C2F000000204E616D653D2256656E6465646F72222056616C75653D2227546F646F73204C6F732056656E6465646F72657327220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="98.26778" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo2" Left="7.55906" Top="11.33859" Width="309.92146" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="3" ParentFont="False" Text="Proyeccion de Anuales/Semestrales"/>
+      <TfrxMemoView Name="Memo7" Left="343.93723" Top="30.23624" Width="94.48825" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="Mes:[Mes]"/>
+      <TfrxLineView Name="Line1" Left="3.77953" Top="94.48825" Width="695.43352" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo9" Left="132.28355" Top="71.81107" Width="68.03154" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Cliente"/>
+      <TfrxMemoView Name="Memo10" Left="442.20501" Top="71.81107" Width="68.03154" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Cobrador"/>
+      <TfrxMemoView Name="Memo11" Left="623.62245" Top="71.81107" Width="68.03154" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Importe"/>
+      <TfrxMemoView Name="Memo15" Left="11.33859" Top="34.01577" Width="196.53556" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="2" HAlign="haRight" ParentFont="False" Text="Con detalle de facturacion"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="2" Height="18.89765" Left="0" ParentFont="False" Top="147.40167" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="frDBDetalles" DataSetName="frDBDetalles" RowCount="0">
+      <TfrxMemoView Name="Memo3" Left="3.77953" Top="0" Width="71.81107" Height="18.89765" ShowHint="False" DataField="CODIGO" DataSet="frDBDetalles" DataSetName="frDBDetalles" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frDBDetalles.&#34;CODIGO&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="79.37013" Top="0" Width="306.14193" Height="18.89765" ShowHint="False" DataField="NOMBRE" DataSet="frDBDetalles" DataSetName="frDBDetalles" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frDBDetalles.&#34;NOMBRE&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="400.63018" Top="0" Width="177.63791" Height="18.89765" ShowHint="False" DataField="COBRADOR" DataSet="frDBDetalles" DataSetName="frDBDetalles" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frDBDetalles.&#34;COBRADOR&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="616.06339" Top="0" Width="94.48825" Height="18.89765" ShowHint="False" DataField="TOTAL_ABONO" DataSet="frDBDetalles" DataSetName="frDBDetalles" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frDBDetalles.&#34;TOTAL_ABONO&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="64.25201" Left="0" Top="302.3624" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Left="309.92146" Top="26.45671" Width="75.5906" Height="18.89765" ShowHint="False" HAlign="haRight" Text="[Page#]"/>
+      <TfrxLineView Name="Line2" Left="7.55906" Top="7.55906" Width="699.21305" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxPageFooter>
+    <TfrxReportSummary Name="ReportSummary1" Height="22.67718" Left="0" Top="245.66945" Width="718.1107">
+      <TfrxMemoView Name="Memo8" Left="616.06339" Top="3.77953" Width="94.48825" Height="18.89765" ShowHint="False" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;frDBDetalles.&#34;TOTAL_ABONO&#34;&#62;)]"/>
+      <TfrxLineView Name="Line3" Left="604.7248" Top="0.77953" Width="109.60637" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxReportSummary>
+    <TfrxDetailData Name="DetailData1" Height="15.11812" Left="0" Top="196.53556" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="frFacturas" DataSetName="frFacturas" RowCount="0">
+      <TfrxMemoView Name="Memo12" Left="34.01577" Top="0" Width="94.48825" Height="15.11812" ShowHint="False" DataField="FECHAVTA" DataSet="frFacturas" DataSetName="frFacturas" Text="[frFacturas.&#34;FECHAVTA&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="136.06308" Top="0" Width="170.07885" Height="15.11812" ShowHint="False" DataSet="frFacturas" DataSetName="frFacturas" Text="[FormatMaskText('a-0000-00000000;0',&#60;frFacturas.&#34;NROCPBTE&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo14" Left="321.26005" Top="0" Width="94.48825" Height="15.11812" ShowHint="False" DataField="TOTAL_1" DataSet="frFacturas" DataSetName="frFacturas" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[frFacturas.&#34;TOTAL_1&#34;]"/>
+    </TfrxDetailData>
+  </TfrxReportPage>
+</TfrxReport>

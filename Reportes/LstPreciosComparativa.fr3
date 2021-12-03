@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.6.8" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Por defecto" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39638.1218678704" ReportOptions.Description.Text="" ReportOptions.LastChange="39679.6684617245" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403C80003546F7003100108446174617365747301010C3000000020446174615365743D226672444250726563696F732220446174615365744E616D653D226672444250726563696F73220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="54" Left="0" Top="36" Width="755.906">
+      <TfrxMemoView Name="Memo1" Left="18" Top="8" Width="444" Height="30" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="Lista de precios comparativa por Proveedores"/>
+      <TfrxMemoView Name="Memo11" Left="610" Top="4" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="[Date]"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="15" Left="0" Top="196.44094" Width="755.906" Columns="1" ColumnWidth="200" ColumnGap="20" DataSet="frDBPrecios" DataSetName="frDBPrecios" RowCount="0">
+      <TfrxMemoView Name="Memo4" Left="397" Top="0" Width="74" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="PRECIO" DataSet="frDBPrecios" DataSetName="frDBPrecios" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[frDBPrecios.&#34;PRECIO&#34;]"/>
+      <TfrxMemoView Name="Memo2" Left="-6" Top="0" Width="292" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="MUESTRAPROVEEDOR" DataSet="frDBPrecios" DataSetName="frDBPrecios" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HideZeros="True" ParentFont="False" Text="[frDBPrecios.&#34;MUESTRAPROVEEDOR&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="506" Top="0" Width="212" Height="15" ShowHint="False" StretchMode="smMaxHeight" DataField="ULTIMA_ACTUALIZACION" DataSet="frDBPrecios" DataSetName="frDBPrecios" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="[frDBPrecios.&#34;ULTIMA_ACTUALIZACION&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader1" Height="38" Left="0" Top="125.10235" Width="755.906" Condition="&#60;frDBPrecios.&#34;CODIGO_STK&#34;&#62;">
+      <TfrxMemoView Name="Memo7" Left="4.77953" Top="0.62214" Width="748.34694" Height="18.89765" ShowHint="False" Color="12632256" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo3" Left="126" Top="0" Width="336" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[frDBPrecios.&#34;MUESTRASTOCK&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="6" Top="0" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HideZeros="True" ParentFont="False" Text="[frDBPrecios.&#34;CODIGO_STK&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="82" Top="20" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Proveedor"/>
+      <TfrxMemoView Name="Memo9" Left="386" Top="20" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Precio"/>
+      <TfrxMemoView Name="Memo10" Left="530" Top="20" Width="136" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="Ultima Actualización"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" Height="10" Left="0" Top="256.67718" Width="755.906"/>
+    <TfrxPageFooter Name="PageFooter1" Height="46" Left="0" Top="310.45671" Width="755.906">
+      <TfrxLineView Name="Line1" Left="-6" Top="4" Width="732" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo12" Left="306" Top="12" Width="96" Height="18" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" HAlign="haCenter" HideZeros="True" ParentFont="False" Text="[Page#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
